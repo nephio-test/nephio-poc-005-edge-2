@@ -39,13 +39,13 @@ status:
     reason: ResourceInjected
     message: Injected IP allocation
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-n4.upf.Injected
-    status: "False"
-    reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = cannot update ni status: Operation cannot be fulfilled on networkinstances.ipam.nephio.org "sample-vpc": the object has been modified; please apply your changes to the latest version and try again'
+    status: "True"
+    reason: ResourceInjected
+    message: Injected IP allocation
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-n6.upf.Injected
-    status: "False"
-    reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = cannot update ni status: Operation cannot be fulfilled on networkinstances.ipam.nephio.org "sample-vpc": the object has been modified; please apply your changes to the latest version and try again'
+    status: "True"
+    reason: ResourceInjected
+    message: Injected IP allocation
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-internet.upf.Injected
     status: "True"
     reason: ResourceInjected
