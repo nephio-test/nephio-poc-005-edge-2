@@ -35,18 +35,18 @@ status:
     reason: ResourceInjected
     message: injected from FiveGCoreTopology "fivegcoretopology-sample" UPF name "agg-layer"
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-n3.upf.Injected
-    status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    status: "True"
+    reason: ResourceInjected
+    message: Injected IP allocation
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-n4.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = cannot update ni status: Operation cannot be fulfilled on networkinstances.ipam.nephio.org "sample-vpc": the object has been modified; please apply your changes to the latest version and try again'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-n6.upf.Injected
     status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    reason: ErrorDuringInjection
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = cannot update ni status: Operation cannot be fulfilled on networkinstances.ipam.nephio.org "sample-vpc": the object has been modified; please apply your changes to the latest version and try again'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge-2-internet.upf.Injected
-    status: "False"
-    reason: PendingInjection
-    message: Awaiting IP allocation and injection
+    status: "True"
+    reason: ResourceInjected
+    message: Injected IP allocation
